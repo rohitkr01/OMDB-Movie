@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>OMDB Movie Search</title>
+</head>
+<body>
+    <header>
+        <!-- <div class="h-tittle">
+             <img src="./images/IMDB MOVIE APP.svg" alt="imdb_text_heading">
+        </div> -->
+       
+        <p>IMDB MOVIE APP</p>
+    </header>
+    <div class="search-container">
+        <div class="search-item-container">
+            <input type="text" id="apiKeyInput" placeholder="API_Key">
+            <span><img src="./images/link.svg" alt="link-icon"></span>
+        </div>
+        <div class="search-item-container">
+            <input type="text" id="movieTitleInput" placeholder="Enter Movie Title">
+            <span><img src="./images/search_icon.svg" alt="search-icon"></span>
+        </div>
+        
+        <button id="searchButton">Search</button>
+    </div>
+    <div id="loader" class="loader"></div>
+    <div id="results" class="results-container"></div>
+    <script src="index.js"></script>
+</body>
+</html>
